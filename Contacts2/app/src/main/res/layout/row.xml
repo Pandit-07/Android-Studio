@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="abc"
+        android:textSize="20sp"/>
+
+    <!--<TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rebeca Jacobi: 351-718-5424"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anthony Ellis Osinski: 1-668-639-8896"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="98dp"
+        android:padding="5sp"/>
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aiyana Eichmann: 574-505-3513"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annabel Bergstrom: 699-935-4867"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Julien Walker: 777-611-2211"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="51dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelli Grady: 716-000-9110"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:padding="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kennedy Brandt: 012-181-2711"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ryleigh Keeling: 020-112-5632"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="430dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleta Cole: 777-975-9907"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kavon Stehr: 623-832-3720"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="169dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Van Ashtyn: 183-868-9068"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="407dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orion Elliot: 520-402-7270"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="146dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Norene Trantow: 684-687-1656"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="335dp"
+        android:padding="5sp"/>
+
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vallie Block: 561-128-7812"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shanny: 597-225-6585"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lily Cummerata: 097-791-8822"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="383dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stefan Bogan: 385-778-4786"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="264dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amie Walsh: 400-698-6356"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="193dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erna Miller: 495-749-0723"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="312dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demetrius: 005-663-8696"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="549dp" android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courtney Jakubowski: 138-593-9792"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="501dp" android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerson Aufderhar: 494-245-6449"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="478dp" android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arnulfo Kuhn: 680-800-9407"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="525dp" android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakob Kunde: 249-772-5070"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="573dp" android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maryse Fay: 126-383-3616"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="596dp" android:padding="5sp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.024330901" android:padding="5sp" /> -->
+
+</LinearLayout>
