@@ -7,16 +7,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public  abstract class CustomAdapter extends RecyclerView.Adapter {
-    ArrayList personNames;
-    Context context;
-    public CustomAdapter(Context c, ArrayList personNames){
+public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder>{
+    ArrayList <String> personNames;
+    Context c;
+    public CustomAdapter(Context c, ArrayList <String> personNames){
         this.personNames = personNames;
-        this.context = context;
+        this.c = c;
         }
         @Override
         public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
@@ -24,22 +25,25 @@ public  abstract class CustomAdapter extends RecyclerView.Adapter {
          MyViewHolder vh = new MyViewHolder(v);
          return vh;
     }
+
     @Override
-    public void onBindViewHolder(MyViewHolder holder, final int position){
-        holder.name.setText((Integer) personNames.get(position));
+    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
+        holder.name.setText(personNames.get(position));
         holder.itemView.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onCLick(View view){
-                Toast.makeText(context, (Integer) personNames.get(position),Toast.LENGTH_SHORT).show();
+            public void onClick(View view) {
+                Toast.makeText(c, (CharSequence) personNames.get(position),Toast.LENGTH_SHORT).show();
             }
         });
     }
+
+
     @Override
     public int getItemCount(){
         return personNames.size();
     }
     public class MyViewHolder extends RecyclerView.ViewHolder{
-        final TextView name;
+        public TextView name;
         public MyViewHolder(View itemView){
             super(itemView);
             name = (TextView) itemView.findViewById(R.id.name);
